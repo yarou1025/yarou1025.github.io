@@ -1,110 +1,185 @@
 {
   "meta": {
-    "title": "Ya-Rou Hsu — 軟體工程師",
-    "description": "Arteris 軟體工程師。電機、EDA、資料科學。現居大巴黎。"
+    "title": "許雅柔 — 軟體工程師",
+    "description": "Arteris 軟體工程師。電機、EDA、資料科學。現居法蘭西島。"
   },
   "nav": {
     "about": "關於",
     "experience": "經歷",
     "education": "學歷",
     "research": "研究",
+    "highlights": "媒體",
     "skills": "技能",
+    "interests": "興趣",
     "writing": "寫作",
     "projects": "專案",
     "contact": "聯絡"
   },
   "hero": {
-    "name": "Ya-Rou Hsu",
-    "title": "Software Engineer @ Arteris",
-    "tagline": "EE · EDA · Data Science · France",
-    "location": "大巴黎都會區"
+    "label": "✨ 個人網站",
+    "name": "許雅柔",
+    "title": "💻 Software Engineer @ Arteris",
+    "tagline": "⚡ EE · EDA · Data Science",
+    "location": "🇹🇼 台灣 → 🇫🇷 法蘭西島"
   },
   "about": {
-    "heading": "關於我",
+    "heading": "👋 關於我",
     "text": "我目前在 Arteris 擔任軟體工程師，專注於現代 SoC 設計的 Network-on-Chip (NoC) IP。背景橫跨電機工程、實體設計自動化與資料科學——從 MediaTek 的 ML 版圖 delay 排序，到法國的 NoC 拓樸最佳化。我完成雙碩士路徑：NYCU 電機碩士（EDA）與 Télécom SudParis 資料科學與網路智慧碩士。工作之餘，我在部落格 InSeine Adventure 分享法國生活與留學工作經驗。"
   },
   "experience": {
-    "heading": "工作經歷",
+    "heading": "💼 工作經歷",
     "items": [
       {
         "company": "Arteris",
         "role": "Software Engineer",
-        "period": "2024/10 – 至今",
-        "location": "Montigny-le-Bretonneux, 法國",
-        "description": "開發與最佳化半導體 SoC 整合用的 NoC IP 解決方案。"
+        "start": "2024/10",
+        "end": "至今",
+        "location": "Montigny-le-Bretonneux, 🇫🇷",
+        "logo": "https://www.google.com/s2/favicons?domain=arteris.com&sz=64",
+        "description": "開發與最佳化半導體 SoC 整合用的 NoC IP 解決方案。",
+        "details": [
+          "參與 Network-on-Chip IP 核心功能開發與維護",
+          "協助客戶整合 NoC 至 SoC 設計流程",
+          "效能分析與拓樸配置最佳化"
+        ]
       },
       {
         "company": "Arteris",
         "role": "Engineer",
-        "period": "2024/02 – 2024/08",
-        "location": "Montigny-le-Bretonneux, 法國",
-        "description": "自動最佳化既有 NoC 拓樸，以符合效能需求。"
+        "start": "2024/02",
+        "end": "2024/08",
+        "location": "Montigny-le-Bretonneux, 🇫🇷",
+        "logo": "https://www.google.com/s2/favicons?domain=arteris.com&sz=64",
+        "description": "自動最佳化既有 NoC 拓樸，以符合效能需求。",
+        "details": [
+          "設計自動化演算法以調整 NoC 拓樸參數",
+          "分析頻寬、延遲等效能指標",
+          "與架構團隊協作驗證最佳化結果"
+        ]
       },
       {
         "company": "Phison 群聯電子",
         "role": "Software Developer 實習",
-        "period": "2023/06 – 2023/08",
-        "location": "苗栗, 台灣",
-        "description": "強化 firmware debug 工具功能，重新設計介面以改善使用體驗。"
+        "start": "2023/06",
+        "end": "2023/08",
+        "location": "苗栗, 🇹🇼",
+        "logo": "https://www.google.com/s2/favicons?domain=phison.com&sz=64",
+        "description": "強化 firmware debug 工具功能，重新設計介面以改善使用體驗。",
+        "details": [
+          "新增 firmware 除錯與分析功能",
+          "重新設計 GUI 介面，提升工程師操作效率",
+          "使用 C/C++ 開發底層工具模組"
+        ]
       },
       {
         "company": "MediaTek 聯發科",
         "role": "Research Assistant",
-        "period": "2021/09 – 2023/06",
-        "location": "新竹, 台灣",
-        "description": "產學合作：TSMC N3/N4 版圖分析，開發 ML 方法自動選擇最佳 delay 表現的 cell layout。"
+        "start": "2021/09",
+        "end": "2023/06",
+        "location": "新竹, 🇹🇼",
+        "logo": "https://www.google.com/s2/favicons?domain=mediatek.com&sz=64",
+        "description": "產學合作：TSMC N3/N4 版圖分析，開發 ML 方法自動選擇最佳 delay 表現的 cell layout。",
+        "details": [
+          "分析 TSMC N3/N4 製程版圖相依效應",
+          "建立 ML 模型排序 cell layout delay 表現",
+          "論文發表於 IEEE TVLSI Systems (2025)"
+        ]
       },
       {
         "company": "ASML",
         "role": "D&E Engineer 實習",
-        "period": "2022/07 – 2022/12",
-        "location": "新竹, 台灣",
-        "description": "設計 unit test、XSD schema，以及 Python–C++ OpenCV 的 Pybind11 整合。"
+        "start": "2022/07",
+        "end": "2022/12",
+        "location": "新竹, 🇹🇼",
+        "logo": "https://www.google.com/s2/favicons?domain=asml.com&sz=64",
+        "description": "設計 unit test、XSD schema，以及 Python–C++ OpenCV 的 Pybind11 整合。",
+        "details": [
+          "撰寫 C++ unit test 確保模組品質",
+          "設計 XSD schema 驗證設定檔格式",
+          "以 Pybind11 整合 Python 與 C++ OpenCV 影像處理"
+        ]
       },
       {
         "company": "NYCU 國際事務處",
         "role": "International Affairs Worker",
-        "period": "2022/09 – 2023/06",
-        "location": "新竹, 台灣",
-        "description": "接待國際訪賓、協調學生活動，以及國際事務行政支援。"
+        "start": "2022/09",
+        "end": "2023/06",
+        "location": "新竹, 🇹🇼",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
+        "description": "接待國際訪賓、協調學生活動，以及國際事務行政支援。",
+        "details": [
+          "接待來校國際訪賓與交流團",
+          "協助規劃與執行國際學生活動",
+          "國際事務相關行政文書與協調工作"
+        ]
       }
     ]
   },
   "education": {
-    "heading": "學歷",
+    "heading": "🎓 學歷",
     "items": [
       {
         "school": "Télécom SudParis",
         "degree": "資料科學與網路智慧 碩士",
-        "period": "2023 – 2024",
-        "location": "Évry, 法國",
-        "note": "France Excellence 獎學金"
+        "start": "2023",
+        "end": "2024",
+        "location": "Évry, 🇫🇷",
+        "description": "🏆 France Excellence 獎學金 · NYCU 雙聯碩士",
+        "logo": "https://www.google.com/s2/favicons?domain=telecom-sudparis.eu&sz=64",
+        "details": [
+          "GPU for Deep Learning（CUDA、cuBLAS 平行運算）",
+          "Data Science、Network Intelligence、AI 相關課程",
+          "畢業實習於 Arteris（NoC / SoC）"
+        ]
       },
       {
         "school": "國立陽明交通大學 NYCU",
         "degree": "電機工程 碩士",
-        "period": "2021 – 2023",
-        "location": "新竹, 台灣",
-        "note": "GPA 4.05/4.3 · EDA 論文"
+        "start": "2021",
+        "end": "2023",
+        "location": "新竹, 🇹🇼",
+        "description": "GPA 4.05/4.3 · EDA 論文",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
+        "details": [
+          "Design Automation、Physical Design、Hardware Design、Algorithm",
+          "MediaTek 產學合作（TSMC N3/N4 版圖 ML 分析）",
+          "IEEE TVLSI Systems 論文（2025）",
+          "國際事務處 Conversation Circle"
+        ]
       },
       {
         "school": "École Polytechnique",
         "degree": "交換生 — Informatique",
-        "period": "2020 – 2021",
-        "location": "Palaiseau, 法國",
-        "note": "Computer Programming A+ · OOP in C++ A"
+        "start": "2020",
+        "end": "2021",
+        "location": "Palaiseau, 🇫🇷",
+        "description": "Computer Programming A+ · OOP in C++ A",
+        "logo": "https://www.google.com/s2/favicons?domain=polytechnique.edu&sz=64",
+        "details": [
+          "Computer Programming A+",
+          "Object-oriented Programming in C++ A",
+          "Design and Analysis of Algorithms A-"
+        ]
       },
       {
         "school": "國立陽明交通大學 NYCU",
         "degree": "電機工程 學士",
-        "period": "2017 – 2021",
-        "location": "新竹, 台灣",
-        "note": "GPA 4.17/4.3 · 系排 14/177"
+        "start": "2017",
+        "end": "2021",
+        "location": "新竹, 🇹🇼",
+        "description": "GPA 4.17/4.3 · 系排 14/177",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
+        "details": [
+          "Microelectronics、DSP、AI、Algorithm、IC Design & Verification",
+          "2021 ATCC ATONA Case Competition 亞軍",
+          "2020 ICCAD Contest 參賽 · 2018 新竹梅竹 Hackathon 季軍",
+          "電機系學生會學術資源部長 · 冬令營總召"
+        ]
       }
     ]
   },
   "research": {
-    "heading": "研究與論文",
+    "heading": "📄 研究與論文",
     "items": [
       {
         "title": "Machine-Learning-Based Ranking of Cell Layout Delay Considering Layout-Dependent Effects",
@@ -122,8 +197,31 @@
       }
     ]
   },
+  "highlights": {
+    "heading": "📰 媒體與活動",
+    "items": [
+      {
+        "emoji": "📰",
+        "title": "三立新聞網｜電機美少女赴法國當交換生，返台成職場搶手貨",
+        "year": "2022",
+        "url": "https://www.setn.com/news/1152145?p=0"
+      },
+      {
+        "emoji": "🎙️",
+        "title": "NYCU PRESS 說書中 EP.04｜歡迎來到交作業大學！電機生活大公開",
+        "year": "2021",
+        "url": "https://open.spotify.com/episode/4JgoJZ4YOUn5hsFjzxThLy?si=OcLJZmqGQXC_051YdpqrGg"
+      },
+      {
+        "emoji": "🏆",
+        "title": "ATCC 全國大專院校商業個案大賽｜2021 ATONA Case Competition 亞軍（MOST GASE 組）",
+        "year": "2021",
+        "url": "https://atcc.co/home/"
+      }
+    ]
+  },
   "skills": {
-    "heading": "技能",
+    "heading": "🛠️ 技能",
     "categories": [
       {
         "name": "程式語言",
@@ -134,55 +232,95 @@
         "items": ["EDA / Physical Design", "NoC / SoC", "Machine Learning", "Data Science"]
       },
       {
-        "name": "工具",
-        "items": ["Git", "JIRA", "OpenCV", "Pybind11", "QGIS"]
+        "name": "語言",
+        "items": ["🇹🇼 中文（母語）", "🇬🇧 英文（TOEFL 96）", "🇫🇷 法文（DELF B2）"]
+      }
+    ]
+  },
+  "interests": {
+    "heading": "🏃 興趣",
+    "items": [
+      {
+        "emoji": "🏃‍♀️",
+        "title": "半馬 / 跑步",
+        "description": "Paris Semi-Marathon 等路跑賽事",
+        "records": [
+          "古都馬 2:12:49",
+          "Net Paris Saclay 2:24:46"
+        ],
+        "url": "https://www.strava.com/athletes/hsu_yr",
+        "linkLabel": "Strava"
       },
       {
-        "name": "語言",
-        "items": ["中文（母語）", "英文（TOEFL 96）", "法文（DELF A2，工作程度）"]
+        "emoji": "✈️",
+        "title": "旅遊",
+        "description": "東京、歐洲——記錄在 InSeine Adventure",
+        "url": "https://inseine-aventure.blogspot.com/",
+        "linkLabel": "部落格"
       }
     ]
   },
   "writing": {
-    "heading": "寫作",
+    "heading": "📝 寫作",
     "subtitle": "InSeine Adventure — 法國生活、留學與工作分享",
     "blogUrl": "https://inseine-aventure.blogspot.com/",
     "viewAll": "查看全部文章",
     "items": [
       {
         "title": "🇫🇷 法國買房｜首購流程、優惠貸款與實際經驗分享",
-        "date": "2026/07",
-        "summary": "從預算試算、銀行貸款（PTZ、Prêt d'Accession）到簽約交屋——我們在 78 省 T2 小公寓的購屋經驗。",
         "url": "https://inseine-aventure.blogspot.com/"
       },
       {
         "title": "🇫🇷 法文 DELF B2 檢定｜法國考場＆一個月密集準備心得",
-        "date": "2026/06",
-        "summary": "UVSQ CEREL 報名流程、考試時程，以及 Lingoda + ChatGPT 模板的一個月衝刺計畫。",
         "url": "https://inseine-aventure.blogspot.com/"
       },
       {
         "title": "🇯🇵 2025 東京 8 天 7 夜自由行",
-        "date": "2026/06",
-        "summary": "日光世界遺產、箱根溫泉、東京美食——從法國出發的完整行程與住宿分享。",
         "url": "https://inseine-aventure.blogspot.com/"
       },
       {
         "title": "🇫🇷 法國工作｜公司福利介紹",
-        "date": "2026/02",
-        "summary": "35 小時工時、30 天年假、RTT——法國職場福利實際長什麼樣。",
-        "url": "https://inseine-aventure.blogspot.com/"
-      },
-      {
-        "title": "🇫🇷 法國理財｜儲蓄與投資商品入門",
-        "date": "2026/01",
-        "summary": "Livret A、LDDS、LEP、PEA、Assurance Vie——在法國理財的實用入門。",
         "url": "https://inseine-aventure.blogspot.com/"
       }
-    ]
+    ],
+    "willstudy": {
+      "label": "WillStudy 留學計畫",
+      "viewAll": "留學計畫",
+      "url": "https://www.willstudy.tw/",
+      "items": [
+        {
+          "title": "Télécom SudParis 法國數據科學雙聯學位｜校友分享高 CP 值留學",
+          "url": "https://www.willstudy.tw/telecom-sudparis-ya-rou/"
+        },
+        {
+          "title": "France Excellence 留法精英獎學金｜2023 申請、面試 & 文件準備",
+          "url": "https://www.willstudy.tw/france-excellence-2023/"
+        },
+        {
+          "title": "法國實習申請 留學生經驗談｜理工碩士畢業，基礎法文程度找實習",
+          "url": "https://www.willstudy.tw/fr-intern-2024/"
+        },
+        {
+          "title": "法國居留延長說明｜VLS-TS 學生簽證續簽：文件準備、流程紀錄",
+          "url": "https://www.willstudy.tw/vls-ts-anef/"
+        },
+        {
+          "title": "免費補充健保 CSS、交通補助卡申請辦法｜法國留學生福利",
+          "url": "https://www.willstudy.tw/fr-css-transport-solidarite/"
+        },
+        {
+          "title": "法國駕照 Permis de conduire 換發完整指南｜ANTS 教學、申請時間",
+          "url": "https://www.willstudy.tw/permis-de-conduire/"
+        },
+        {
+          "title": "法國博士申請 居里夫人計劃 MSCA (TOAST)｜申請、研究經驗分享",
+          "url": "https://www.willstudy.tw/msca-toast-fr/"
+        }
+      ]
+    }
   },
   "projects": {
-    "heading": "專案",
+    "heading": "🚀 專案",
     "viewAll": "查看 GitHub",
     "items": [
       {
@@ -206,7 +344,7 @@
     ]
   },
   "honors": {
-    "heading": "獎學金與榮譽",
+    "heading": "🏅 獎學金與榮譽",
     "items": [
       {
         "name": "France Excellence Scholarship",
@@ -217,11 +355,16 @@
         "name": "ASML Elite Scholarship",
         "issuer": "ASML Taiwan",
         "year": "2021"
+      },
+      {
+        "name": "ATCC ATONA Case Competition — 亞軍",
+        "issuer": "MOST GASE 組",
+        "year": "2021"
       }
     ]
   },
   "links": {
-    "heading": "連結",
+    "heading": "🔗 連結",
     "items": [
       { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ya-rou-hsu-b93032179" },
       { "label": "GitHub", "url": "https://github.com/yarou1025" },
@@ -231,12 +374,12 @@
     ]
   },
   "contact": {
-    "heading": "聯絡",
+    "heading": "📬 聯絡",
     "text": "歡迎交流半導體 IP、EDA、資料科學，以及法國生活相關話題。",
-    "email": "yarou1025@users.noreply.github.com"
+    "email": "hsuyarou@gmail.com"
   },
   "footer": {
-    "text": "© Ya-Rou Hsu · Built on GitHub Pages"
+    "text": "© 許雅柔 · Built on GitHub Pages"
   },
   "ui": {
     "langToggle": "EN",

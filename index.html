@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ya-Rou Hsu — Software Engineer at Arteris. EE, EDA, Data Science. Based in Greater Paris.">
+  <meta name="description" content="Ya-Rou Hsu — Software Engineer at Arteris. EE, EDA, Data Science. Based in Île-de-France.">
   <meta property="og:title" content="Ya-Rou Hsu">
   <meta property="og:description" content="Software Engineer @ Arteris · EE · EDA · Data Science · France">
   <meta property="og:type" content="website">
@@ -42,7 +42,7 @@
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-content">
-          <p class="hero-label">Portfolio</p>
+          <p id="hero-label" class="hero-label">✨ Portfolio</p>
           <h1 id="hero-name" class="hero-name">Ya-Rou Hsu</h1>
           <p id="hero-title" class="hero-title">Software Engineer @ Arteris</p>
           <p id="hero-tagline" class="hero-tagline">EE · EDA · Data Science · France</p>
@@ -53,8 +53,8 @@
             <a href="https://inseine-aventure.blogspot.com/" class="btn btn-outline" target="_blank" rel="noopener">Blog</a>
           </div>
         </div>
-        <div class="hero-avatar" aria-hidden="true">
-          <div class="avatar-placeholder">YH</div>
+        <div class="hero-avatar">
+          <img src="assets/avatar.JPG" alt="Ya-Rou Hsu" class="avatar-img" width="220" height="220">
         </div>
       </div>
     </section>
@@ -76,7 +76,7 @@
     <section id="education" class="section">
       <div class="container">
         <h2 id="education-heading" class="section-heading">Education</h2>
-        <div id="education-list" class="card-grid"></div>
+        <div id="education-list" class="timeline"></div>
       </div>
     </section>
 
@@ -87,6 +87,13 @@
       </div>
     </section>
 
+    <section id="highlights" class="section section-alt">
+      <div class="container">
+        <h2 id="highlights-heading" class="section-heading">Media</h2>
+        <div id="highlights-list" class="writing-list-wrap"></div>
+      </div>
+    </section>
+
     <section id="skills" class="section">
       <div class="container">
         <h2 id="skills-heading" class="section-heading">Skills</h2>
@@ -94,7 +101,14 @@
       </div>
     </section>
 
-    <section id="writing" class="section section-alt">
+    <section id="interests" class="section">
+      <div class="container">
+        <h2 id="interests-heading" class="section-heading">Interests</h2>
+        <div id="interests-list" class="interests-grid"></div>
+      </div>
+    </section>
+
+    <section id="writing" class="section">
       <div class="container">
         <div class="section-header-row">
           <div>
@@ -103,11 +117,18 @@
           </div>
           <a id="writing-view-all" href="https://inseine-aventure.blogspot.com/" class="section-link" target="_blank" rel="noopener"></a>
         </div>
-        <div id="writing-list" class="card-grid"></div>
+        <div id="writing-list" class="writing-list-wrap"></div>
+        <div class="writing-subsection">
+          <div class="section-header-row writing-subheader">
+            <p id="willstudy-label" class="writing-group-label"></p>
+            <a id="willstudy-view-all" href="https://www.willstudy.tw/" class="section-link" target="_blank" rel="noopener"></a>
+          </div>
+          <div id="willstudy-list" class="writing-list-wrap"></div>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="section">
+    <section id="projects" class="section section-alt">
       <div class="container">
         <div class="section-header-row">
           <h2 id="projects-heading" class="section-heading">Projects</h2>
@@ -117,7 +138,7 @@
       </div>
     </section>
 
-    <section id="honors" class="section section-alt">
+    <section id="honors" class="section">
       <div class="container">
         <h2 id="honors-heading" class="section-heading">Honors</h2>
         <div id="honors-list" class="honors-list"></div>

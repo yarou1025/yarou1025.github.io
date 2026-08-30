@@ -1,110 +1,185 @@
 {
   "meta": {
     "title": "Ya-Rou Hsu — Software Engineer",
-    "description": "Software Engineer at Arteris. EE, EDA, Data Science. Based in Greater Paris."
+    "description": "Software Engineer at Arteris. EE, EDA, Data Science. Based in Île-de-France."
   },
   "nav": {
     "about": "About",
     "experience": "Experience",
     "education": "Education",
     "research": "Research",
+    "highlights": "Media",
     "skills": "Skills",
+    "interests": "Interests",
     "writing": "Writing",
     "projects": "Projects",
     "contact": "Contact"
   },
   "hero": {
+    "label": "✨ Portfolio",
     "name": "Ya-Rou Hsu",
-    "title": "Software Engineer @ Arteris",
-    "tagline": "EE · EDA · Data Science · France",
-    "location": "Greater Paris Metropolitan Region"
+    "title": "💻 Software Engineer @ Arteris",
+    "tagline": "⚡ EE · EDA · Data Science",
+    "location": "🇹🇼 Taiwan → 🇫🇷 Île-de-France"
   },
   "about": {
-    "heading": "About",
+    "heading": "👋 About",
     "text": "I am a software engineer at Arteris working on Network-on-Chip (NoC) IP for modern SoC design. My background spans electrical engineering, physical design automation, and data science — from ML-based cell layout delay ranking at MediaTek to NoC topology optimization in France. I completed a dual master's path: an M.S. in EE (EDA) at NYCU and an M.S. in Data Science & Network Intelligence at Télécom SudParis. When I'm not coding, I write about life in France on my blog InSeine Adventure."
   },
   "experience": {
-    "heading": "Experience",
+    "heading": "💼 Experience",
     "items": [
       {
         "company": "Arteris",
         "role": "Software Engineer",
-        "period": "Oct 2024 – Present",
-        "location": "Montigny-le-Bretonneux, France",
-        "description": "Developing and optimizing NoC IP solutions for semiconductor SoC integration."
+        "start": "Oct 2024",
+        "end": "Present",
+        "location": "Montigny-le-Bretonneux, 🇫🇷",
+        "logo": "https://www.google.com/s2/favicons?domain=arteris.com&sz=64",
+        "description": "Developing and optimizing NoC IP solutions for semiconductor SoC integration.",
+        "details": [
+          "Core development and maintenance of Network-on-Chip IP features",
+          "Support customer integration of NoC into SoC design flows",
+          "Performance analysis and topology configuration optimization"
+        ]
       },
       {
         "company": "Arteris",
         "role": "Engineer",
-        "period": "Feb 2024 – Aug 2024",
-        "location": "Montigny-le-Bretonneux, France",
-        "description": "Automatic optimization of existing NoC topologies to meet performance requirements."
+        "start": "Feb 2024",
+        "end": "Aug 2024",
+        "location": "Montigny-le-Bretonneux, 🇫🇷",
+        "logo": "https://www.google.com/s2/favicons?domain=arteris.com&sz=64",
+        "description": "Automatic optimization of existing NoC topologies to meet performance requirements.",
+        "details": [
+          "Designed automation algorithms to tune NoC topology parameters",
+          "Analyzed bandwidth, latency, and other performance metrics",
+          "Collaborated with architecture team to validate optimization results"
+        ]
       },
       {
         "company": "Phison Electronics",
         "role": "Software Developer Intern",
-        "period": "Jun 2023 – Aug 2023",
-        "location": "Miaoli, Taiwan",
-        "description": "Enhanced firmware debug tools with new features and redesigned UI for better UX."
+        "start": "Jun 2023",
+        "end": "Aug 2023",
+        "location": "Miaoli, 🇹🇼",
+        "logo": "https://www.google.com/s2/favicons?domain=phison.com&sz=64",
+        "description": "Enhanced firmware debug tools with new features and redesigned UI for better UX.",
+        "details": [
+          "Added firmware debugging and analysis capabilities",
+          "Redesigned GUI to improve engineer workflow efficiency",
+          "Developed low-level tool modules in C/C++"
+        ]
       },
       {
         "company": "MediaTek",
         "role": "Research Assistant",
-        "period": "Sep 2021 – Jun 2023",
-        "location": "Hsinchu, Taiwan",
-        "description": "Industry-academia project on TSMC N3/N4 layout analysis; developed ML methods for optimal delay-performing cell layout selection."
+        "start": "Sep 2021",
+        "end": "Jun 2023",
+        "location": "Hsinchu, 🇹🇼",
+        "logo": "https://www.google.com/s2/favicons?domain=mediatek.com&sz=64",
+        "description": "Industry-academia project on TSMC N3/N4 layout analysis; developed ML methods for optimal delay-performing cell layout selection.",
+        "details": [
+          "Analyzed layout-dependent effects on TSMC N3/N4 process",
+          "Built ML models to rank cell layout delay performance",
+          "Published in IEEE TVLSI Systems (2025)"
+        ]
       },
       {
         "company": "ASML",
         "role": "D&E Engineer Intern",
-        "period": "Jul 2022 – Dec 2022",
-        "location": "Hsinchu, Taiwan",
-        "description": "Designed unit tests, XSD schema work, and Python–C++ OpenCV bindings via Pybind11."
+        "start": "Jul 2022",
+        "end": "Dec 2022",
+        "location": "Hsinchu, 🇹🇼",
+        "logo": "https://www.google.com/s2/favicons?domain=asml.com&sz=64",
+        "description": "Designed unit tests, XSD schema work, and Python–C++ OpenCV bindings via Pybind11.",
+        "details": [
+          "Wrote C++ unit tests to ensure module quality",
+          "Designed XSD schema for configuration file validation",
+          "Integrated Python and C++ OpenCV via Pybind11 for image processing"
+        ]
       },
       {
         "company": "NYCU Office of International Affairs",
         "role": "International Affairs Worker",
-        "period": "Sep 2022 – Jun 2023",
-        "location": "Hsinchu, Taiwan",
-        "description": "Welcomed international guests, coordinated student events, and assisted with OIA administration."
+        "start": "Sep 2022",
+        "end": "Jun 2023",
+        "location": "Hsinchu, 🇹🇼",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
+        "description": "Welcomed international guests, coordinated student events, and assisted with OIA administration.",
+        "details": [
+          "Hosted international visitors and exchange groups on campus",
+          "Helped plan and run events for international students",
+          "Administrative support for international affairs office"
+        ]
       }
     ]
   },
   "education": {
-    "heading": "Education",
+    "heading": "🎓 Education",
     "items": [
       {
         "school": "Télécom SudParis",
         "degree": "M.S. Data Science and Network Intelligence",
-        "period": "2023 – 2024",
-        "location": "Évry, France",
-        "note": "France Excellence Scholarship"
+        "start": "2023",
+        "end": "2024",
+        "location": "Évry, 🇫🇷",
+        "description": "🏆 France Excellence Scholarship · Dual degree with NYCU",
+        "logo": "https://www.google.com/s2/favicons?domain=telecom-sudparis.eu&sz=64",
+        "details": [
+          "GPU for Deep Learning (CUDA, cuBLAS parallel computing)",
+          "Coursework in Data Science, Network Intelligence & AI",
+          "Graduation internship at Arteris (NoC / SoC)"
+        ]
       },
       {
         "school": "National Yang Ming Chiao Tung University",
         "degree": "M.S. Electrical and Electronics Engineering",
-        "period": "2021 – 2023",
-        "location": "Hsinchu, Taiwan",
-        "note": "GPA 4.05/4.3 · EDA thesis"
+        "start": "2021",
+        "end": "2023",
+        "location": "Hsinchu, 🇹🇼",
+        "description": "GPA 4.05/4.3 · EDA thesis",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
+        "details": [
+          "Design Automation, Physical Design, Hardware Design, Algorithms",
+          "MediaTek industry-academia project (TSMC N3/N4 layout ML)",
+          "IEEE TVLSI Systems publication (2025)",
+          "Conversation Circle, Office of International Affairs"
+        ]
       },
       {
         "school": "École Polytechnique",
         "degree": "Exchange — Informatique",
-        "period": "2020 – 2021",
-        "location": "Palaiseau, France",
-        "note": "A+ Computer Programming · A OOP in C++"
+        "start": "2020",
+        "end": "2021",
+        "location": "Palaiseau, 🇫🇷",
+        "description": "Computer Programming A+ · OOP in C++ A",
+        "logo": "https://www.google.com/s2/favicons?domain=polytechnique.edu&sz=64",
+        "details": [
+          "Computer Programming A+",
+          "Object-oriented Programming in C++ A",
+          "Design and Analysis of Algorithms A-"
+        ]
       },
       {
         "school": "National Yang Ming Chiao Tung University",
         "degree": "B.S. Electrical and Electronics Engineering",
-        "period": "2017 – 2021",
-        "location": "Hsinchu, Taiwan",
-        "note": "GPA 4.17/4.3 · Rank 14/177"
+        "start": "2017",
+        "end": "2021",
+        "location": "Hsinchu, 🇹🇼",
+        "description": "GPA 4.17/4.3 · Rank 14/177",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
+        "details": [
+          "Microelectronics, DSP, AI, Algorithms, IC Design & Verification",
+          "2nd Place, ATCC ATONA Case Competition 2021",
+          "ICCAD Contest 2020 · 3rd Place, Hsinchu Meichu Hackathon 2018",
+          "ECE Student Union Academic Resource Lead · Winter Camp President"
+        ]
       }
     ]
   },
   "research": {
-    "heading": "Research & Publications",
+    "heading": "📄 Research & Publications",
     "items": [
       {
         "title": "Machine-Learning-Based Ranking of Cell Layout Delay Considering Layout-Dependent Effects",
@@ -122,8 +197,31 @@
       }
     ]
   },
+  "highlights": {
+    "heading": "📰 Media & Activities",
+    "items": [
+      {
+        "emoji": "📰",
+        "title": "SETN News — Exchange student in France, career spotlight upon return",
+        "year": "2022",
+        "url": "https://www.setn.com/news/1152145?p=0"
+      },
+      {
+        "emoji": "🎙️",
+        "title": "NYCU PRESS Podcast EP.04 — Life in NYCU EE (feat. Prof. Huang & Ya-Rou Hsu)",
+        "year": "2021",
+        "url": "https://open.spotify.com/episode/4JgoJZ4YOUn5hsFjzxThLy?si=OcLJZmqGQXC_051YdpqrGg"
+      },
+      {
+        "emoji": "🏆",
+        "title": "ATCC National Business Case Competition — 2nd Place, ATONA 2021 (MOST GASE Group)",
+        "year": "2021",
+        "url": "https://atcc.co/home/"
+      }
+    ]
+  },
   "skills": {
-    "heading": "Skills",
+    "heading": "🛠️ Skills",
     "categories": [
       {
         "name": "Programming",
@@ -134,55 +232,95 @@
         "items": ["EDA / Physical Design", "NoC / SoC", "Machine Learning", "Data Science"]
       },
       {
-        "name": "Tools",
-        "items": ["Git", "JIRA", "OpenCV", "Pybind11", "QGIS"]
+        "name": "Languages",
+        "items": ["🇹🇼 Mandarin (native)", "🇬🇧 English (TOEFL 96)", "🇫🇷 French (DELF B2)"]
+      }
+    ]
+  },
+  "interests": {
+    "heading": "🏃 Interests",
+    "items": [
+      {
+        "emoji": "🏃‍♀️",
+        "title": "Half Marathon / Running",
+        "description": "Paris Semi-Marathon and other road races",
+        "records": [
+          "Gugong Half Marathon — 2:12:49",
+          "Net Paris Saclay Half — 2:24:46"
+        ],
+        "url": "https://www.strava.com/athletes/hsu_yr",
+        "linkLabel": "Strava"
       },
       {
-        "name": "Languages",
-        "items": ["Mandarin (native)", "English (TOEFL 96)", "French (DELF A2, working proficiency)"]
+        "emoji": "✈️",
+        "title": "Travel",
+        "description": "Tokyo, Europe — documented on InSeine Adventure",
+        "url": "https://inseine-aventure.blogspot.com/",
+        "linkLabel": "Blog"
       }
     ]
   },
   "writing": {
-    "heading": "Writing",
+    "heading": "📝 Writing",
     "subtitle": "InSeine Adventure — life, study & work in France",
     "blogUrl": "https://inseine-aventure.blogspot.com/",
     "viewAll": "View all posts",
     "items": [
       {
-        "title": "Buying a Home in France — First-Time Buyer Guide",
-        "date": "Jul 2026",
-        "summary": "From budget planning and bank loans (PTZ, Prêt d'Accession) to signing and moving in — our T2 apartment experience in Yvelines.",
+        "title": "🇫🇷 Buying a Home in France — First-Time Buyer Guide",
         "url": "https://inseine-aventure.blogspot.com/"
       },
       {
-        "title": "DELF B2 Exam — One-Month Intensive Prep",
-        "date": "Jun 2026",
-        "summary": "Registration at UVSQ CEREL, exam schedule, and a crash plan with Lingoda + ChatGPT templates.",
+        "title": "🇫🇷 DELF B2 Exam — One-Month Intensive Prep",
         "url": "https://inseine-aventure.blogspot.com/"
       },
       {
-        "title": "Tokyo 8-Day Trip from France",
-        "date": "Jun 2026",
-        "summary": "Nikko UNESCO sites, Hakone onsen, and Tokyo food — itinerary and hotel picks from a Paris-based traveler.",
+        "title": "🇯🇵 Tokyo 8-Day Trip from France",
         "url": "https://inseine-aventure.blogspot.com/"
       },
       {
-        "title": "Working in France — Company Benefits",
-        "date": "Feb 2026",
-        "summary": "35-hour work week, 30 days annual leave, RTT, and what French workplace benefits actually look like.",
-        "url": "https://inseine-aventure.blogspot.com/"
-      },
-      {
-        "title": "French Savings & Investment Basics",
-        "date": "Jan 2026",
-        "summary": "Livret A, LDDS, LEP, PEA, Assurance Vie — a practical intro to managing money in France.",
+        "title": "🇫🇷 Working in France — Company Benefits",
         "url": "https://inseine-aventure.blogspot.com/"
       }
-    ]
+    ],
+    "willstudy": {
+      "label": "WillStudy",
+      "viewAll": "WillStudy",
+      "url": "https://www.willstudy.tw/",
+      "items": [
+        {
+          "title": "Télécom SudParis Dual Master's — High-value study abroad in France",
+          "url": "https://www.willstudy.tw/telecom-sudparis-ya-rou/"
+        },
+        {
+          "title": "France Excellence Scholarship — 2023 application, interview & documents",
+          "url": "https://www.willstudy.tw/france-excellence-2023/"
+        },
+        {
+          "title": "Finding an internship in France as an international STEM master's student",
+          "url": "https://www.willstudy.tw/fr-intern-2024/"
+        },
+        {
+          "title": "Extending French student residence (VLS-TS renewal via ANEF)",
+          "url": "https://www.willstudy.tw/vls-ts-anef/"
+        },
+        {
+          "title": "Complémentaire Santé Solidaire (CSS) & reduced Navigo pass for students",
+          "url": "https://www.willstudy.tw/fr-css-transport-solidarite/"
+        },
+        {
+          "title": "Exchanging a Taiwan driving licence for a French Permis de conduire",
+          "url": "https://www.willstudy.tw/permis-de-conduire/"
+        },
+        {
+          "title": "Applying for a French PhD via Marie Skłodowska-Curie (MSCA TOAST)",
+          "url": "https://www.willstudy.tw/msca-toast-fr/"
+        }
+      ]
+    }
   },
   "projects": {
-    "heading": "Projects",
+    "heading": "🚀 Projects",
     "viewAll": "View GitHub profile",
     "items": [
       {
@@ -206,7 +344,7 @@
     ]
   },
   "honors": {
-    "heading": "Honors",
+    "heading": "🏅 Honors",
     "items": [
       {
         "name": "France Excellence Scholarship",
@@ -217,11 +355,16 @@
         "name": "ASML Elite Scholarship",
         "issuer": "ASML Taiwan",
         "year": "2021"
+      },
+      {
+        "name": "ATCC ATONA Case Competition — 2nd Place",
+        "issuer": "MOST GASE Group",
+        "year": "2021"
       }
     ]
   },
   "links": {
-    "heading": "Links",
+    "heading": "🔗 Links",
     "items": [
       { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ya-rou-hsu-b93032179" },
       { "label": "GitHub", "url": "https://github.com/yarou1025" },
@@ -231,9 +374,9 @@
     ]
   },
   "contact": {
-    "heading": "Contact",
+    "heading": "📬 Contact",
     "text": "Open to conversations about semiconductor IP, EDA, data science, and life in France.",
-    "email": "yarou1025@users.noreply.github.com"
+    "email": "hsuyarou@gmail.com"
   },
   "footer": {
     "text": "© Ya-Rou Hsu · Built on GitHub Pages"

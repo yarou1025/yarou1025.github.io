@@ -23,7 +23,9 @@ function renderPage() {
   renderExperience();
   renderEducation();
   renderResearch();
+  renderHighlights();
   renderSkills();
+  renderInterests();
   renderWriting();
   renderProjects();
   renderHonors();
@@ -44,7 +46,9 @@ function renderNav() {
     { id: 'experience', key: 'experience' },
     { id: 'education', key: 'education' },
     { id: 'research', key: 'research' },
+    { id: 'highlights', key: 'highlights' },
     { id: 'skills', key: 'skills' },
+    { id: 'interests', key: 'interests' },
     { id: 'writing', key: 'writing' },
     { id: 'projects', key: 'projects' },
     { id: 'contact', key: 'contact' }
@@ -56,15 +60,46 @@ function renderNav() {
 }
 
 function renderHero() {
+  setText('hero-label', content.hero.label);
   setText('hero-name', content.hero.name);
   setText('hero-title', content.hero.title);
   setText('hero-tagline', content.hero.tagline);
   setText('hero-location', content.hero.location);
+
+  const avatar = document.querySelector('.avatar-img');
+  if (avatar) avatar.alt = content.hero.name;
 }
 
 function renderAbout() {
   setText('about-heading', content.about.heading);
   setText('about-text', content.about.text);
+}
+
+function renderTimelineItem(item, { title, subtitle, logo, logoAlt }) {
+  const hasDetails = item.details && item.details.length;
+  return `
+    <article class="card timeline-item${hasDetails ? ' has-details' : ''}"${hasDetails ? ' tabindex="0"' : ''}>
+      <div class="timeline-axis">
+        <span class="timeline-date">${item.start}</span>
+        <span class="timeline-date-end">${item.end}</span>
+      </div>
+      <div class="timeline-marker"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-title-row">
+            ${logo ? `<img src="${logo}" alt="${logoAlt}" class="card-logo" width="36" height="36" loading="lazy">` : ''}
+            <h3 class="card-title">${title}</h3>
+          </div>
+        </div>
+        <p class="card-subtitle">${subtitle}</p>
+        <p class="card-text">${item.description}</p>
+        ${
+          hasDetails
+            ? `<div class="card-details"><ul>${item.details.map(d => `<li>${d}</li>`).join('')}</ul></div>`
+            : ''
+        }
+      </div>
+    </article>`;
 }
 
 function renderExperience() {
@@ -73,19 +108,13 @@ function renderExperience() {
   if (!container) return;
 
   container.innerHTML = content.experience.items
-    .map(
-      item => `
-    <article class="card timeline-item">
-      <div class="timeline-marker"></div>
-      <div class="card-body">
-        <div class="card-header">
-          <h3 class="card-title">${item.role}</h3>
-          <span class="card-period">${item.period}</span>
-        </div>
-        <p class="card-subtitle">${item.company} · ${item.location}</p>
-        <p class="card-text">${item.description}</p>
-      </div>
-    </article>`
+    .map(item =>
+      renderTimelineItem(item, {
+        title: item.role,
+        subtitle: `${item.company} · ${item.location}`,
+        logo: item.logo,
+        logoAlt: item.company
+      })
     )
     .join('');
 }
@@ -96,18 +125,13 @@ function renderEducation() {
   if (!container) return;
 
   container.innerHTML = content.education.items
-    .map(
-      item => `
-    <article class="card">
-      <div class="card-body">
-        <div class="card-header">
-          <h3 class="card-title">${item.degree}</h3>
-          <span class="card-period">${item.period}</span>
-        </div>
-        <p class="card-subtitle">${item.school} · ${item.location}</p>
-        <p class="card-note">${item.note}</p>
-      </div>
-    </article>`
+    .map(item =>
+      renderTimelineItem(item, {
+        title: item.degree,
+        subtitle: `${item.school} · ${item.location}`,
+        logo: item.logo,
+        logoAlt: item.school
+      })
     )
     .join('');
 }
@@ -132,6 +156,19 @@ function renderResearch() {
     .join('');
 }
 
+function renderHighlights() {
+  setText('highlights-heading', content.highlights.heading);
+  const container = document.getElementById('highlights-list');
+  if (!container) return;
+
+  container.innerHTML = `<ul class="writing-list">${content.highlights.items
+    .map(
+      item =>
+        `<li><a href="${item.url}" target="_blank" rel="noopener"><span class="highlight-emoji">${item.emoji}</span> ${item.title}<span class="highlight-year">${item.year}</span></a></li>`
+    )
+    .join('')}</ul>`;
+}
+
 function renderSkills() {
   setText('skills-heading', content.skills.heading);
   const container = document.getElementById('skills-list');
@@ -150,6 +187,41 @@ function renderSkills() {
     .join('');
 }
 
+function renderInterests() {
+  setText('interests-heading', content.interests.heading);
+  const container = document.getElementById('interests-list');
+  if (!container) return;
+
+  container.innerHTML = content.interests.items
+    .map(item => {
+      const recordsHtml =
+        item.records && item.records.length
+          ? `<ul class="interest-records">${item.records.map(r => `<li>${r}</li>`).join('')}</ul>`
+          : '';
+      const inner = `
+      <div class="interest-emoji">${item.emoji}</div>
+      <h3 class="interest-title">${item.title}</h3>
+      <p class="interest-desc">${item.description}</p>
+      ${recordsHtml}
+      ${item.url ? `<span class="interest-link-label">${item.linkLabel || '→'} ↗</span>` : ''}`;
+
+      if (item.url) {
+        return `<a href="${item.url}" class="interest-card interest-card--link" target="_blank" rel="noopener">${inner}</a>`;
+      }
+      return `<article class="interest-card">${inner}</article>`;
+    })
+    .join('');
+}
+
+function renderWritingList(items) {
+  return `<ul class="writing-list">${items
+    .map(
+      item =>
+        `<li><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></li>`
+    )
+    .join('')}</ul>`;
+}
+
 function renderWriting() {
   setText('writing-heading', content.writing.heading);
   setText('writing-subtitle', content.writing.subtitle);
@@ -160,23 +232,19 @@ function renderWriting() {
   }
 
   const container = document.getElementById('writing-list');
-  if (!container) return;
+  if (container) container.innerHTML = renderWritingList(content.writing.items);
 
-  container.innerHTML = content.writing.items
-    .map(
-      item => `
-    <article class="card">
-      <div class="card-body">
-        <div class="card-header">
-          <h3 class="card-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h3>
-          <span class="card-period">${item.date}</span>
-        </div>
-        <p class="card-text">${item.summary}</p>
-        <a href="${item.url}" class="card-link" target="_blank" rel="noopener">${content.ui.readMore} →</a>
-      </div>
-    </article>`
-    )
-    .join('');
+  const ws = content.writing.willstudy;
+  if (ws) {
+    setText('willstudy-label', ws.label);
+    const wsViewAll = document.getElementById('willstudy-view-all');
+    if (wsViewAll) {
+      wsViewAll.textContent = ws.viewAll + ' →';
+      wsViewAll.href = ws.url;
+    }
+    const wsContainer = document.getElementById('willstudy-list');
+    if (wsContainer) wsContainer.innerHTML = renderWritingList(ws.items);
+  }
 }
 
 function renderProjects() {
