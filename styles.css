@@ -427,6 +427,7 @@ img {
 
 .about-text {
   line-height: 1.8;
+  max-width: none;
 }
 
 .section-header-row {
@@ -692,7 +693,7 @@ img {
 @media (hover: hover) {
   .writing-list-group.has-more:hover .writing-list-collapsed,
   .writing-list-group.has-more:focus-within .writing-list-collapsed {
-    max-height: 200px;
+    max-height: 480px;
     opacity: 1;
     border-bottom: 1px solid var(--color-border);
   }
@@ -719,7 +720,7 @@ img {
 
 @media (hover: none) {
   .writing-list-group.has-more:focus-within .writing-list-collapsed {
-    max-height: 200px;
+    max-height: 480px;
     opacity: 1;
     border-bottom: 1px solid var(--color-border);
   }

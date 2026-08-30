@@ -150,8 +150,8 @@
       {
         "school": "École Polytechnique",
         "degree": "交換生 — Informatique",
-        "start": "2020/09",
-        "end": "2021/06",
+        "start": "2021/01",
+        "end": "",
         "location": "Palaiseau, 🇫🇷",
         "description": "Computer Programming A+ · OOP in C++ A",
         "logo": "https://www.google.com/s2/favicons?domain=polytechnique.edu&sz=64",
@@ -199,7 +199,57 @@
   },
   "highlights": {
     "heading": "📰 媒體與活動",
+    "visibleCount": 3,
+    "moreHint": "還有 {count} 篇 · 移入查看更多",
     "items": [
+      {
+        "emoji": "🎤",
+        "title": "青商會｜夢想在法國：台灣青年的職涯導航與女力傳承",
+        "year": "2025",
+        "url": "https://www.facebook.com/brtf.taiwan/posts/pfbid02bJS9gr3RRwhyr9GrQjqxpnZTch6o7ZDrXX8fwHdsBqCTFZYBpmCvZCJpgoGF83Phl"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy｜法國博士申請 居里夫人計劃 MSCA (TOAST)｜申請、研究經驗分享",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/msca-toast-fr/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy｜法國駕照 Permis de conduire 換發完整指南｜ANTS 教學、申請時間",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/permis-de-conduire/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy｜免費補充健保 CSS、交通補助卡申請辦法｜法國留學生福利",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/fr-css-transport-solidarite/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy｜法國居留延長說明｜VLS-TS 學生簽證續簽：文件準備、流程紀錄",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/vls-ts-anef/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy｜法國實習申請 留學生經驗談｜理工碩士畢業，基礎法文程度找實習",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/fr-intern-2024/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy｜Télécom SudParis 法國數據科學雙聯學位｜校友分享高 CP 值留學",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/telecom-sudparis-ya-rou/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy｜France Excellence 留法精英獎學金｜2023 申請、面試 & 文件準備",
+        "year": "2023",
+        "url": "https://www.willstudy.tw/france-excellence-2023/"
+      },
       {
         "emoji": "📰",
         "title": "三立新聞網｜電機美少女赴法國當交換生，返台成職場搶手貨",
@@ -238,7 +288,7 @@
     ]
   },
   "interests": {
-    "heading": "🏃 興趣",
+    "heading": "🌟 興趣",
     "items": [
       {
         "emoji": "🏃‍♀️",
@@ -254,7 +304,12 @@
       {
         "emoji": "✈️",
         "title": "旅遊",
-        "description": "東京、歐洲——記錄在 InSeine Adventure",
+        "description": "東京、歐洲——探索城市與文化"
+      },
+      {
+        "emoji": "✍️",
+        "title": "寫作",
+        "description": "InSeine Adventure — 法國生活、留學與工作分享",
         "url": "https://inseine-aventure.blogspot.com/",
         "linkLabel": "部落格"
       }
@@ -282,44 +337,7 @@
         "title": "🇫🇷 法國工作｜公司福利介紹",
         "url": "https://inseine-aventure.blogspot.com/"
       }
-    ],
-    "willstudy": {
-      "label": "WillStudy 留學計畫",
-      "viewAll": "留學計畫",
-      "url": "https://www.willstudy.tw/",
-      "visibleCount": 5,
-      "moreHint": "還有 {count} 篇 · 移入查看更多",
-      "items": [
-        {
-          "title": "Télécom SudParis 法國數據科學雙聯學位｜校友分享高 CP 值留學",
-          "url": "https://www.willstudy.tw/telecom-sudparis-ya-rou/"
-        },
-        {
-          "title": "France Excellence 留法精英獎學金｜2023 申請、面試 & 文件準備",
-          "url": "https://www.willstudy.tw/france-excellence-2023/"
-        },
-        {
-          "title": "法國實習申請 留學生經驗談｜理工碩士畢業，基礎法文程度找實習",
-          "url": "https://www.willstudy.tw/fr-intern-2024/"
-        },
-        {
-          "title": "法國居留延長說明｜VLS-TS 學生簽證續簽：文件準備、流程紀錄",
-          "url": "https://www.willstudy.tw/vls-ts-anef/"
-        },
-        {
-          "title": "免費補充健保 CSS、交通補助卡申請辦法｜法國留學生福利",
-          "url": "https://www.willstudy.tw/fr-css-transport-solidarite/"
-        },
-        {
-          "title": "法國駕照 Permis de conduire 換發完整指南｜ANTS 教學、申請時間",
-          "url": "https://www.willstudy.tw/permis-de-conduire/"
-        },
-        {
-          "title": "法國博士申請 居里夫人計劃 MSCA (TOAST)｜申請、研究經驗分享",
-          "url": "https://www.willstudy.tw/msca-toast-fr/"
-        }
-      ]
-    }
+    ]
   },
   "projects": {
     "heading": "🚀 專案",

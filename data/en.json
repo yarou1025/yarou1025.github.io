@@ -150,8 +150,8 @@
       {
         "school": "École Polytechnique",
         "degree": "Exchange — Informatique",
-        "start": "Sep 2020",
-        "end": "Jun 2021",
+        "start": "Jan 2021",
+        "end": "",
         "location": "Palaiseau, 🇫🇷",
         "description": "Computer Programming A+ · OOP in C++ A",
         "logo": "https://www.google.com/s2/favicons?domain=polytechnique.edu&sz=64",
@@ -199,7 +199,57 @@
   },
   "highlights": {
     "heading": "📰 Media & Activities",
+    "visibleCount": 3,
+    "moreHint": "{count} more · hover to expand",
     "items": [
+      {
+        "emoji": "🎤",
+        "title": "Junior Chamber — Dreams in France: career navigation for Taiwanese youth",
+        "year": "2025",
+        "url": "https://www.facebook.com/brtf.taiwan/posts/pfbid02bJS9gr3RRwhyr9GrQjqxpnZTch6o7ZDrXX8fwHdsBqCTFZYBpmCvZCJpgoGF83Phl"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy — Applying for a French PhD via Marie Skłodowska-Curie (MSCA TOAST)",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/msca-toast-fr/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy — Exchanging a Taiwan driving licence for a French Permis de conduire",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/permis-de-conduire/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy — Complémentaire Santé Solidaire (CSS) & reduced Navigo pass for students",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/fr-css-transport-solidarite/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy — Extending French student residence (VLS-TS renewal via ANEF)",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/vls-ts-anef/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy — Finding an internship in France as an international STEM master's student",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/fr-intern-2024/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy — Télécom SudParis Dual Master's — High-value study abroad in France",
+        "year": "2024",
+        "url": "https://www.willstudy.tw/telecom-sudparis-ya-rou/"
+      },
+      {
+        "emoji": "📚",
+        "title": "WillStudy — France Excellence Scholarship — 2023 application, interview & documents",
+        "year": "2023",
+        "url": "https://www.willstudy.tw/france-excellence-2023/"
+      },
       {
         "emoji": "📰",
         "title": "SETN News — Exchange student in France, career spotlight upon return",
@@ -238,7 +288,7 @@
     ]
   },
   "interests": {
-    "heading": "🏃 Interests",
+    "heading": "🌟 Interests",
     "items": [
       {
         "emoji": "🏃‍♀️",
@@ -254,7 +304,12 @@
       {
         "emoji": "✈️",
         "title": "Travel",
-        "description": "Tokyo, Europe — documented on InSeine Adventure",
+        "description": "Tokyo, Europe — exploring cities and cultures"
+      },
+      {
+        "emoji": "✍️",
+        "title": "Writing",
+        "description": "InSeine Adventure — life, study & work in France",
         "url": "https://inseine-aventure.blogspot.com/",
         "linkLabel": "Blog"
       }
@@ -282,44 +337,7 @@
         "title": "🇫🇷 Working in France — Company Benefits",
         "url": "https://inseine-aventure.blogspot.com/"
       }
-    ],
-    "willstudy": {
-      "label": "WillStudy",
-      "viewAll": "WillStudy",
-      "url": "https://www.willstudy.tw/",
-      "visibleCount": 5,
-      "moreHint": "{count} more · hover to expand",
-      "items": [
-        {
-          "title": "Télécom SudParis Dual Master's — High-value study abroad in France",
-          "url": "https://www.willstudy.tw/telecom-sudparis-ya-rou/"
-        },
-        {
-          "title": "France Excellence Scholarship — 2023 application, interview & documents",
-          "url": "https://www.willstudy.tw/france-excellence-2023/"
-        },
-        {
-          "title": "Finding an internship in France as an international STEM master's student",
-          "url": "https://www.willstudy.tw/fr-intern-2024/"
-        },
-        {
-          "title": "Extending French student residence (VLS-TS renewal via ANEF)",
-          "url": "https://www.willstudy.tw/vls-ts-anef/"
-        },
-        {
-          "title": "Complémentaire Santé Solidaire (CSS) & reduced Navigo pass for students",
-          "url": "https://www.willstudy.tw/fr-css-transport-solidarite/"
-        },
-        {
-          "title": "Exchanging a Taiwan driving licence for a French Permis de conduire",
-          "url": "https://www.willstudy.tw/permis-de-conduire/"
-        },
-        {
-          "title": "Applying for a French PhD via Marie Skłodowska-Curie (MSCA TOAST)",
-          "url": "https://www.willstudy.tw/msca-toast-fr/"
-        }
-      ]
-    }
+    ]
   },
   "projects": {
     "heading": "🚀 Projects",

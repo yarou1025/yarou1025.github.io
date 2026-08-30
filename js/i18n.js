@@ -81,7 +81,7 @@ function renderTimelineItem(item, { title, subtitle, logo, logoAlt }) {
     <article class="card timeline-item${hasDetails ? ' has-details' : ''}"${hasDetails ? ' tabindex="0"' : ''}>
       <div class="timeline-axis">
         <span class="timeline-date">${item.start}</span>
-        <span class="timeline-date-end">${item.end}</span>
+        ${item.end ? `<span class="timeline-date-end">${item.end}</span>` : ''}
       </div>
       <div class="timeline-marker"></div>
       <div class="card-body">
@@ -156,17 +156,39 @@ function renderResearch() {
     .join('');
 }
 
+function renderHighlightLi(item, collapsed = false) {
+  const yearHtml = item.year ? `<span class="highlight-year">${item.year}</span>` : '';
+  return `<li${collapsed ? ' class="writing-list-collapsed"' : ''}><a href="${item.url}" target="_blank" rel="noopener"><span class="highlight-emoji">${item.emoji || ''}</span> ${item.title}${yearHtml}</a></li>`;
+}
+
 function renderHighlights() {
   setText('highlights-heading', content.highlights.heading);
   const container = document.getElementById('highlights-list');
   if (!container) return;
 
-  container.innerHTML = `<ul class="writing-list">${content.highlights.items
-    .map(
-      item =>
-        `<li><a href="${item.url}" target="_blank" rel="noopener"><span class="highlight-emoji">${item.emoji}</span> ${item.title}<span class="highlight-year">${item.year}</span></a></li>`
-    )
-    .join('')}</ul>`;
+  const items = content.highlights.items;
+  const visibleCount = content.highlights.visibleCount;
+  const hasMore = visibleCount && items.length > visibleCount;
+  const visible = hasMore ? items.slice(0, visibleCount) : items;
+  const hidden = hasMore ? items.slice(visibleCount) : [];
+  const hint =
+    hasMore && content.highlights.moreHint
+      ? content.highlights.moreHint.replace('{count}', hidden.length)
+      : '';
+
+  if (!hasMore) {
+    container.innerHTML = `<ul class="writing-list">${visible.map(item => renderHighlightLi(item)).join('')}</ul>`;
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="writing-list-group has-more" tabindex="0">
+      <ul class="writing-list">
+        ${visible.map(item => renderHighlightLi(item)).join('')}
+        ${hidden.map(item => renderHighlightLi(item, true)).join('')}
+      </ul>
+      <div class="writing-list-more-hint">${hint}</div>
+    </div>`;
 }
 
 function renderSkills() {
@@ -251,23 +273,6 @@ function renderWriting() {
 
   const container = document.getElementById('writing-list');
   if (container) container.innerHTML = renderWritingList(content.writing.items);
-
-  const ws = content.writing.willstudy;
-  if (ws) {
-    setText('willstudy-label', ws.label);
-    const wsViewAll = document.getElementById('willstudy-view-all');
-    if (wsViewAll) {
-      wsViewAll.textContent = ws.viewAll + ' →';
-      wsViewAll.href = ws.url;
-    }
-    const wsContainer = document.getElementById('willstudy-list');
-    if (wsContainer) {
-      wsContainer.innerHTML = renderWritingList(ws.items, {
-        visibleCount: ws.visibleCount,
-        moreHint: ws.moreHint
-      });
-    }
-  }
 }
 
 function renderProjects() {
