@@ -376,12 +376,11 @@ img {
 }
 
 .avatar-img {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
+  width: 306px;
+  height: 306px;
+  border-radius: var(--radius);
   object-fit: cover;
   box-shadow: var(--shadow-md);
-  border: 5px solid rgba(255, 255, 255, 0.9);
 }
 
 /* Sections */
@@ -658,6 +657,84 @@ img {
 .writing-list a:hover {
   background: rgba(125, 169, 161, 0.12);
   color: var(--color-accent);
+}
+
+.writing-list-group.has-more > .writing-list {
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.writing-list-group.has-more .writing-list-collapsed {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  border-bottom: none;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+}
+
+.writing-list-group.has-more .writing-list-collapsed a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.writing-list-more-hint {
+  padding: 11px 20px;
+  text-align: center;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  transition: opacity 0.2s ease, padding 0.2s ease;
+}
+
+@media (hover: hover) {
+  .writing-list-group.has-more:hover .writing-list-collapsed,
+  .writing-list-group.has-more:focus-within .writing-list-collapsed {
+    max-height: 200px;
+    opacity: 1;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .writing-list-group.has-more:hover .writing-list-collapsed a,
+  .writing-list-group.has-more:focus-within .writing-list-collapsed a {
+    padding: 14px 20px;
+  }
+
+  .writing-list-group.has-more:hover .writing-list-more-hint,
+  .writing-list-group.has-more:focus-within .writing-list-more-hint {
+    opacity: 0;
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+  }
+
+  .writing-list-group.has-more:hover > .writing-list,
+  .writing-list-group.has-more:focus-within > .writing-list {
+    border-radius: var(--radius);
+  }
+}
+
+@media (hover: none) {
+  .writing-list-group.has-more:focus-within .writing-list-collapsed {
+    max-height: 200px;
+    opacity: 1;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .writing-list-group.has-more:focus-within .writing-list-collapsed a {
+    padding: 14px 20px;
+  }
+
+  .writing-list-group.has-more:focus-within .writing-list-more-hint {
+    opacity: 0;
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+  }
 }
 
 .highlight-emoji {
@@ -1038,8 +1115,8 @@ img {
   }
 
   .avatar-img {
-    width: 168px;
-    height: 168px;
+    width: 216px;
+    height: 216px;
     margin: 0 auto;
   }
 

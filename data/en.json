@@ -121,8 +121,8 @@
       {
         "school": "Télécom SudParis",
         "degree": "M.S. Data Science and Network Intelligence",
-        "start": "2023",
-        "end": "2024",
+        "start": "Sep 2023",
+        "end": "Jun 2024",
         "location": "Évry, 🇫🇷",
         "description": "🏆 France Excellence Scholarship · Dual degree with NYCU",
         "logo": "https://www.google.com/s2/favicons?domain=telecom-sudparis.eu&sz=64",
@@ -135,8 +135,8 @@
       {
         "school": "National Yang Ming Chiao Tung University",
         "degree": "M.S. Electrical and Electronics Engineering",
-        "start": "2021",
-        "end": "2023",
+        "start": "Sep 2021",
+        "end": "Jun 2023",
         "location": "Hsinchu, 🇹🇼",
         "description": "GPA 4.05/4.3 · EDA thesis",
         "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
@@ -150,8 +150,8 @@
       {
         "school": "École Polytechnique",
         "degree": "Exchange — Informatique",
-        "start": "2020",
-        "end": "2021",
+        "start": "Sep 2020",
+        "end": "Jun 2021",
         "location": "Palaiseau, 🇫🇷",
         "description": "Computer Programming A+ · OOP in C++ A",
         "logo": "https://www.google.com/s2/favicons?domain=polytechnique.edu&sz=64",
@@ -164,8 +164,8 @@
       {
         "school": "National Yang Ming Chiao Tung University",
         "degree": "B.S. Electrical and Electronics Engineering",
-        "start": "2017",
-        "end": "2021",
+        "start": "Sep 2017",
+        "end": "Jun 2021",
         "location": "Hsinchu, 🇹🇼",
         "description": "GPA 4.17/4.3 · Rank 14/177",
         "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
@@ -287,6 +287,8 @@
       "label": "WillStudy",
       "viewAll": "WillStudy",
       "url": "https://www.willstudy.tw/",
+      "visibleCount": 5,
+      "moreHint": "{count} more · hover to expand",
       "items": [
         {
           "title": "Télécom SudParis Dual Master's — High-value study abroad in France",

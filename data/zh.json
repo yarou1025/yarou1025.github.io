@@ -121,8 +121,8 @@
       {
         "school": "Télécom SudParis",
         "degree": "資料科學與網路智慧 碩士",
-        "start": "2023",
-        "end": "2024",
+        "start": "2023/09",
+        "end": "2024/06",
         "location": "Évry, 🇫🇷",
         "description": "🏆 France Excellence 獎學金 · NYCU 雙聯碩士",
         "logo": "https://www.google.com/s2/favicons?domain=telecom-sudparis.eu&sz=64",
@@ -135,8 +135,8 @@
       {
         "school": "國立陽明交通大學 NYCU",
         "degree": "電機工程 碩士",
-        "start": "2021",
-        "end": "2023",
+        "start": "2021/09",
+        "end": "2023/06",
         "location": "新竹, 🇹🇼",
         "description": "GPA 4.05/4.3 · EDA 論文",
         "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
@@ -150,8 +150,8 @@
       {
         "school": "École Polytechnique",
         "degree": "交換生 — Informatique",
-        "start": "2020",
-        "end": "2021",
+        "start": "2020/09",
+        "end": "2021/06",
         "location": "Palaiseau, 🇫🇷",
         "description": "Computer Programming A+ · OOP in C++ A",
         "logo": "https://www.google.com/s2/favicons?domain=polytechnique.edu&sz=64",
@@ -164,8 +164,8 @@
       {
         "school": "國立陽明交通大學 NYCU",
         "degree": "電機工程 學士",
-        "start": "2017",
-        "end": "2021",
+        "start": "2017/09",
+        "end": "2021/06",
         "location": "新竹, 🇹🇼",
         "description": "GPA 4.17/4.3 · 系排 14/177",
         "logo": "https://upload.wikimedia.org/wikipedia/en/4/42/National_Yang_Ming_Chiao_Tung_University_seal_%282023%29.svg",
@@ -287,6 +287,8 @@
       "label": "WillStudy 留學計畫",
       "viewAll": "留學計畫",
       "url": "https://www.willstudy.tw/",
+      "visibleCount": 5,
+      "moreHint": "還有 {count} 篇 · 移入查看更多",
       "items": [
         {
           "title": "Télécom SudParis 法國數據科學雙聯學位｜校友分享高 CP 值留學",

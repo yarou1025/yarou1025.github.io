@@ -213,13 +213,31 @@ function renderInterests() {
     .join('');
 }
 
-function renderWritingList(items) {
-  return `<ul class="writing-list">${items
-    .map(
-      item =>
-        `<li><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></li>`
-    )
-    .join('')}</ul>`;
+function renderWritingList(items, options = {}) {
+  const renderLi = item =>
+    `<li><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></li>`;
+
+  const visibleCount = options.visibleCount;
+  const hasMore = visibleCount && items.length > visibleCount;
+  const visible = hasMore ? items.slice(0, visibleCount) : items;
+  const hidden = hasMore ? items.slice(visibleCount) : [];
+  const hint =
+    hasMore && options.moreHint
+      ? options.moreHint.replace('{count}', hidden.length)
+      : '';
+
+  if (!hasMore) {
+    return `<ul class="writing-list">${visible.map(renderLi).join('')}</ul>`;
+  }
+
+  return `
+    <div class="writing-list-group has-more" tabindex="0">
+      <ul class="writing-list">
+        ${visible.map(renderLi).join('')}
+        ${hidden.map(item => `<li class="writing-list-collapsed"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></li>`).join('')}
+      </ul>
+      <div class="writing-list-more-hint">${hint}</div>
+    </div>`;
 }
 
 function renderWriting() {
@@ -243,7 +261,12 @@ function renderWriting() {
       wsViewAll.href = ws.url;
     }
     const wsContainer = document.getElementById('willstudy-list');
-    if (wsContainer) wsContainer.innerHTML = renderWritingList(ws.items);
+    if (wsContainer) {
+      wsContainer.innerHTML = renderWritingList(ws.items, {
+        visibleCount: ws.visibleCount,
+        moreHint: ws.moreHint
+      });
+    }
   }
 }
 
