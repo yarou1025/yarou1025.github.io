@@ -43,6 +43,13 @@ export default {
     }
 
     try {
+      const missing = ['CF_API_TOKEN', 'CF_ACCOUNT_ID', 'CF_SITE_TAG'].filter(
+        key => !env[key]
+      );
+      if (missing.length) {
+        throw new Error(`Missing Worker secrets: ${missing.join(', ')}`);
+      }
+
       const host = env.SITE_HOST || 'yarou1025.github.io';
       const until = new Date();
       const since = new Date(until.getTime() - 30 * 86400000);
