@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Ya-Rou Hsu — 軟體工程師",
+    "description": "Arteris 軟體工程師。電機、EDA、資料科學。現居大巴黎。"
+  },
+  "nav": {
+    "about": "關於",
+    "experience": "經歷",
+    "education": "學歷",
+    "research": "研究",
+    "skills": "技能",
+    "writing": "寫作",
+    "projects": "專案",
+    "contact": "聯絡"
+  },
+  "hero": {
+    "name": "Ya-Rou Hsu",
+    "title": "Software Engineer @ Arteris",
+    "tagline": "EE · EDA · Data Science · France",
+    "location": "大巴黎都會區"
+  },
+  "about": {
+    "heading": "關於我",
+    "text": "我目前在 Arteris 擔任軟體工程師，專注於現代 SoC 設計的 Network-on-Chip (NoC) IP。背景橫跨電機工程、實體設計自動化與資料科學——從 MediaTek 的 ML 版圖 delay 排序，到法國的 NoC 拓樸最佳化。我完成雙碩士路徑：NYCU 電機碩士（EDA）與 Télécom SudParis 資料科學與網路智慧碩士。工作之餘，我在部落格 InSeine Adventure 分享法國生活與留學工作經驗。"
+  },
+  "experience": {
+    "heading": "工作經歷",
+    "items": [
+      {
+        "company": "Arteris",
+        "role": "Software Engineer",
+        "period": "2024/10 – 至今",
+        "location": "Montigny-le-Bretonneux, 法國",
+        "description": "開發與最佳化半導體 SoC 整合用的 NoC IP 解決方案。"
+      },
+      {
+        "company": "Arteris",
+        "role": "Engineer",
+        "period": "2024/02 – 2024/08",
+        "location": "Montigny-le-Bretonneux, 法國",
+        "description": "自動最佳化既有 NoC 拓樸，以符合效能需求。"
+      },
+      {
+        "company": "Phison 群聯電子",
+        "role": "Software Developer 實習",
+        "period": "2023/06 – 2023/08",
+        "location": "苗栗, 台灣",
+        "description": "強化 firmware debug 工具功能，重新設計介面以改善使用體驗。"
+      },
+      {
+        "company": "MediaTek 聯發科",
+        "role": "Research Assistant",
+        "period": "2021/09 – 2023/06",
+        "location": "新竹, 台灣",
+        "description": "產學合作：TSMC N3/N4 版圖分析，開發 ML 方法自動選擇最佳 delay 表現的 cell layout。"
+      },
+      {
+        "company": "ASML",
+        "role": "D&E Engineer 實習",
+        "period": "2022/07 – 2022/12",
+        "location": "新竹, 台灣",
+        "description": "設計 unit test、XSD schema，以及 Python–C++ OpenCV 的 Pybind11 整合。"
+      },
+      {
+        "company": "NYCU 國際事務處",
+        "role": "International Affairs Worker",
+        "period": "2022/09 – 2023/06",
+        "location": "新竹, 台灣",
+        "description": "接待國際訪賓、協調學生活動，以及國際事務行政支援。"
+      }
+    ]
+  },
+  "education": {
+    "heading": "學歷",
+    "items": [
+      {
+        "school": "Télécom SudParis",
+        "degree": "資料科學與網路智慧 碩士",
+        "period": "2023 – 2024",
+        "location": "Évry, 法國",
+        "note": "France Excellence 獎學金"
+      },
+      {
+        "school": "國立陽明交通大學 NYCU",
+        "degree": "電機工程 碩士",
+        "period": "2021 – 2023",
+        "location": "新竹, 台灣",
+        "note": "GPA 4.05/4.3 · EDA 論文"
+      },
+      {
+        "school": "École Polytechnique",
+        "degree": "交換生 — Informatique",
+        "period": "2020 – 2021",
+        "location": "Palaiseau, 法國",
+        "note": "Computer Programming A+ · OOP in C++ A"
+      },
+      {
+        "school": "國立陽明交通大學 NYCU",
+        "degree": "電機工程 學士",
+        "period": "2017 – 2021",
+        "location": "新竹, 台灣",
+        "note": "GPA 4.17/4.3 · 系排 14/177"
+      }
+    ]
+  },
+  "research": {
+    "heading": "研究與論文",
+    "items": [
+      {
+        "title": "Machine-Learning-Based Ranking of Cell Layout Delay Considering Layout-Dependent Effects",
+        "venue": "IEEE Transactions on VLSI Systems",
+        "year": "2025",
+        "authors": "Ya-Rou Hsu, Aaron C.-W. Liang, Han-Ya Tsai, et al.",
+        "doi": "https://doi.org/10.1109/TVLSI.2025.3543851"
+      },
+      {
+        "title": "Improving Crowd Density Estimation by Fusing Aerial Images and Radio Signals",
+        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications",
+        "year": "2022",
+        "authors": "Kai-Wei Yang, Yen-Yun Huang, Jen-Wei Huang, et al.",
+        "doi": "https://doi.org/10.1145/3492346"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "技能",
+    "categories": [
+      {
+        "name": "程式語言",
+        "items": ["C/C++", "Python", "JavaScript", "SQL"]
+      },
+      {
+        "name": "領域",
+        "items": ["EDA / Physical Design", "NoC / SoC", "Machine Learning", "Data Science"]
+      },
+      {
+        "name": "工具",
+        "items": ["Git", "JIRA", "OpenCV", "Pybind11", "QGIS"]
+      },
+      {
+        "name": "語言",
+        "items": ["中文（母語）", "英文（TOEFL 96）", "法文（DELF A2，工作程度）"]
+      }
+    ]
+  },
+  "writing": {
+    "heading": "寫作",
+    "subtitle": "InSeine Adventure — 法國生活、留學與工作分享",
+    "blogUrl": "https://inseine-aventure.blogspot.com/",
+    "viewAll": "查看全部文章",
+    "items": [
+      {
+        "title": "🇫🇷 法國買房｜首購流程、優惠貸款與實際經驗分享",
+        "date": "2026/07",
+        "summary": "從預算試算、銀行貸款（PTZ、Prêt d'Accession）到簽約交屋——我們在 78 省 T2 小公寓的購屋經驗。",
+        "url": "https://inseine-aventure.blogspot.com/"
+      },
+      {
+        "title": "🇫🇷 法文 DELF B2 檢定｜法國考場＆一個月密集準備心得",
+        "date": "2026/06",
+        "summary": "UVSQ CEREL 報名流程、考試時程，以及 Lingoda + ChatGPT 模板的一個月衝刺計畫。",
+        "url": "https://inseine-aventure.blogspot.com/"
+      },
+      {
+        "title": "🇯🇵 2025 東京 8 天 7 夜自由行",
+        "date": "2026/06",
+        "summary": "日光世界遺產、箱根溫泉、東京美食——從法國出發的完整行程與住宿分享。",
+        "url": "https://inseine-aventure.blogspot.com/"
+      },
+      {
+        "title": "🇫🇷 法國工作｜公司福利介紹",
+        "date": "2026/02",
+        "summary": "35 小時工時、30 天年假、RTT——法國職場福利實際長什麼樣。",
+        "url": "https://inseine-aventure.blogspot.com/"
+      },
+      {
+        "title": "🇫🇷 法國理財｜儲蓄與投資商品入門",
+        "date": "2026/01",
+        "summary": "Livret A、LDDS、LEP、PEA、Assurance Vie——在法國理財的實用入門。",
+        "url": "https://inseine-aventure.blogspot.com/"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "專案",
+    "viewAll": "查看 GitHub",
+    "items": [
+      {
+        "name": "Physical-Design-Automation-in-NYCU-EE",
+        "description": "NYCU 電機系 Physical Design Automation 課程專案（2021 秋）。",
+        "url": "https://github.com/yarou1025/Physical-Design-Automation-in-NYCU-EE",
+        "stars": 4
+      },
+      {
+        "name": "Aspect-Term-Extraction-and-Analysis",
+        "description": "SemEval-2014 Task 4 面向詞抽取與情感分析。",
+        "url": "https://github.com/yarou1025/Aspect-Term-Extraction-and-Analysis",
+        "stars": 0
+      },
+      {
+        "name": "Bayesian-Crowd-Counting",
+        "description": "ICCV 2019 Bayesian Loss 人群計數論文實作。",
+        "url": "https://github.com/yarou1025/Bayesian-Crowd-Counting",
+        "stars": 0
+      }
+    ]
+  },
+  "honors": {
+    "heading": "獎學金與榮譽",
+    "items": [
+      {
+        "name": "France Excellence Scholarship",
+        "issuer": "Campus France",
+        "year": "2023"
+      },
+      {
+        "name": "ASML Elite Scholarship",
+        "issuer": "ASML Taiwan",
+        "year": "2021"
+      }
+    ]
+  },
+  "links": {
+    "heading": "連結",
+    "items": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ya-rou-hsu-b93032179" },
+      { "label": "GitHub", "url": "https://github.com/yarou1025" },
+      { "label": "LeetCode", "url": "https://leetcode.com/u/yarou1025/" },
+      { "label": "InSeine Adventure", "url": "https://inseine-aventure.blogspot.com/" },
+      { "label": "ORCID", "url": "https://orcid.org/0000-0002-0213-0162" }
+    ]
+  },
+  "contact": {
+    "heading": "聯絡",
+    "text": "歡迎交流半導體 IP、EDA、資料科學，以及法國生活相關話題。",
+    "email": "yarou1025@users.noreply.github.com"
+  },
+  "footer": {
+    "text": "© Ya-Rou Hsu · Built on GitHub Pages"
+  },
+  "ui": {
+    "langToggle": "EN",
+    "themeToggle": "主題",
+    "readMore": "閱讀更多",
+    "viewPaper": "查看論文"
+  }
+}

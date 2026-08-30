@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Ya-Rou Hsu — Software Engineer",
+    "description": "Software Engineer at Arteris. EE, EDA, Data Science. Based in Greater Paris."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "research": "Research",
+    "skills": "Skills",
+    "writing": "Writing",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Ya-Rou Hsu",
+    "title": "Software Engineer @ Arteris",
+    "tagline": "EE · EDA · Data Science · France",
+    "location": "Greater Paris Metropolitan Region"
+  },
+  "about": {
+    "heading": "About",
+    "text": "I am a software engineer at Arteris working on Network-on-Chip (NoC) IP for modern SoC design. My background spans electrical engineering, physical design automation, and data science — from ML-based cell layout delay ranking at MediaTek to NoC topology optimization in France. I completed a dual master's path: an M.S. in EE (EDA) at NYCU and an M.S. in Data Science & Network Intelligence at Télécom SudParis. When I'm not coding, I write about life in France on my blog InSeine Adventure."
+  },
+  "experience": {
+    "heading": "Experience",
+    "items": [
+      {
+        "company": "Arteris",
+        "role": "Software Engineer",
+        "period": "Oct 2024 – Present",
+        "location": "Montigny-le-Bretonneux, France",
+        "description": "Developing and optimizing NoC IP solutions for semiconductor SoC integration."
+      },
+      {
+        "company": "Arteris",
+        "role": "Engineer",
+        "period": "Feb 2024 – Aug 2024",
+        "location": "Montigny-le-Bretonneux, France",
+        "description": "Automatic optimization of existing NoC topologies to meet performance requirements."
+      },
+      {
+        "company": "Phison Electronics",
+        "role": "Software Developer Intern",
+        "period": "Jun 2023 – Aug 2023",
+        "location": "Miaoli, Taiwan",
+        "description": "Enhanced firmware debug tools with new features and redesigned UI for better UX."
+      },
+      {
+        "company": "MediaTek",
+        "role": "Research Assistant",
+        "period": "Sep 2021 – Jun 2023",
+        "location": "Hsinchu, Taiwan",
+        "description": "Industry-academia project on TSMC N3/N4 layout analysis; developed ML methods for optimal delay-performing cell layout selection."
+      },
+      {
+        "company": "ASML",
+        "role": "D&E Engineer Intern",
+        "period": "Jul 2022 – Dec 2022",
+        "location": "Hsinchu, Taiwan",
+        "description": "Designed unit tests, XSD schema work, and Python–C++ OpenCV bindings via Pybind11."
+      },
+      {
+        "company": "NYCU Office of International Affairs",
+        "role": "International Affairs Worker",
+        "period": "Sep 2022 – Jun 2023",
+        "location": "Hsinchu, Taiwan",
+        "description": "Welcomed international guests, coordinated student events, and assisted with OIA administration."
+      }
+    ]
+  },
+  "education": {
+    "heading": "Education",
+    "items": [
+      {
+        "school": "Télécom SudParis",
+        "degree": "M.S. Data Science and Network Intelligence",
+        "period": "2023 – 2024",
+        "location": "Évry, France",
+        "note": "France Excellence Scholarship"
+      },
+      {
+        "school": "National Yang Ming Chiao Tung University",
+        "degree": "M.S. Electrical and Electronics Engineering",
+        "period": "2021 – 2023",
+        "location": "Hsinchu, Taiwan",
+        "note": "GPA 4.05/4.3 · EDA thesis"
+      },
+      {
+        "school": "École Polytechnique",
+        "degree": "Exchange — Informatique",
+        "period": "2020 – 2021",
+        "location": "Palaiseau, France",
+        "note": "A+ Computer Programming · A OOP in C++"
+      },
+      {
+        "school": "National Yang Ming Chiao Tung University",
+        "degree": "B.S. Electrical and Electronics Engineering",
+        "period": "2017 – 2021",
+        "location": "Hsinchu, Taiwan",
+        "note": "GPA 4.17/4.3 · Rank 14/177"
+      }
+    ]
+  },
+  "research": {
+    "heading": "Research & Publications",
+    "items": [
+      {
+        "title": "Machine-Learning-Based Ranking of Cell Layout Delay Considering Layout-Dependent Effects",
+        "venue": "IEEE Transactions on VLSI Systems",
+        "year": "2025",
+        "authors": "Ya-Rou Hsu, Aaron C.-W. Liang, Han-Ya Tsai, et al.",
+        "doi": "https://doi.org/10.1109/TVLSI.2025.3543851"
+      },
+      {
+        "title": "Improving Crowd Density Estimation by Fusing Aerial Images and Radio Signals",
+        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications",
+        "year": "2022",
+        "authors": "Kai-Wei Yang, Yen-Yun Huang, Jen-Wei Huang, et al.",
+        "doi": "https://doi.org/10.1145/3492346"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "categories": [
+      {
+        "name": "Programming",
+        "items": ["C/C++", "Python", "JavaScript", "SQL"]
+      },
+      {
+        "name": "Domains",
+        "items": ["EDA / Physical Design", "NoC / SoC", "Machine Learning", "Data Science"]
+      },
+      {
+        "name": "Tools",
+        "items": ["Git", "JIRA", "OpenCV", "Pybind11", "QGIS"]
+      },
+      {
+        "name": "Languages",
+        "items": ["Mandarin (native)", "English (TOEFL 96)", "French (DELF A2, working proficiency)"]
+      }
+    ]
+  },
+  "writing": {
+    "heading": "Writing",
+    "subtitle": "InSeine Adventure — life, study & work in France",
+    "blogUrl": "https://inseine-aventure.blogspot.com/",
+    "viewAll": "View all posts",
+    "items": [
+      {
+        "title": "Buying a Home in France — First-Time Buyer Guide",
+        "date": "Jul 2026",
+        "summary": "From budget planning and bank loans (PTZ, Prêt d'Accession) to signing and moving in — our T2 apartment experience in Yvelines.",
+        "url": "https://inseine-aventure.blogspot.com/"
+      },
+      {
+        "title": "DELF B2 Exam — One-Month Intensive Prep",
+        "date": "Jun 2026",
+        "summary": "Registration at UVSQ CEREL, exam schedule, and a crash plan with Lingoda + ChatGPT templates.",
+        "url": "https://inseine-aventure.blogspot.com/"
+      },
+      {
+        "title": "Tokyo 8-Day Trip from France",
+        "date": "Jun 2026",
+        "summary": "Nikko UNESCO sites, Hakone onsen, and Tokyo food — itinerary and hotel picks from a Paris-based traveler.",
+        "url": "https://inseine-aventure.blogspot.com/"
+      },
+      {
+        "title": "Working in France — Company Benefits",
+        "date": "Feb 2026",
+        "summary": "35-hour work week, 30 days annual leave, RTT, and what French workplace benefits actually look like.",
+        "url": "https://inseine-aventure.blogspot.com/"
+      },
+      {
+        "title": "French Savings & Investment Basics",
+        "date": "Jan 2026",
+        "summary": "Livret A, LDDS, LEP, PEA, Assurance Vie — a practical intro to managing money in France.",
+        "url": "https://inseine-aventure.blogspot.com/"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "viewAll": "View GitHub profile",
+    "items": [
+      {
+        "name": "Physical-Design-Automation-in-NYCU-EE",
+        "description": "Physical Design Automation coursework — NYCU EE Fall 2021.",
+        "url": "https://github.com/yarou1025/Physical-Design-Automation-in-NYCU-EE",
+        "stars": 4
+      },
+      {
+        "name": "Aspect-Term-Extraction-and-Analysis",
+        "description": "Aspect-based sentiment analysis on SemEval-2014 Task 4.",
+        "url": "https://github.com/yarou1025/Aspect-Term-Extraction-and-Analysis",
+        "stars": 0
+      },
+      {
+        "name": "Bayesian-Crowd-Counting",
+        "description": "Implementation of ICCV 2019 Bayesian Loss for crowd count estimation.",
+        "url": "https://github.com/yarou1025/Bayesian-Crowd-Counting",
+        "stars": 0
+      }
+    ]
+  },
+  "honors": {
+    "heading": "Honors",
+    "items": [
+      {
+        "name": "France Excellence Scholarship",
+        "issuer": "Campus France",
+        "year": "2023"
+      },
+      {
+        "name": "ASML Elite Scholarship",
+        "issuer": "ASML Taiwan",
+        "year": "2021"
+      }
+    ]
+  },
+  "links": {
+    "heading": "Links",
+    "items": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ya-rou-hsu-b93032179" },
+      { "label": "GitHub", "url": "https://github.com/yarou1025" },
+      { "label": "LeetCode", "url": "https://leetcode.com/u/yarou1025/" },
+      { "label": "InSeine Adventure", "url": "https://inseine-aventure.blogspot.com/" },
+      { "label": "ORCID", "url": "https://orcid.org/0000-0002-0213-0162" }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "text": "Open to conversations about semiconductor IP, EDA, data science, and life in France.",
+    "email": "yarou1025@users.noreply.github.com"
+  },
+  "footer": {
+    "text": "© Ya-Rou Hsu · Built on GitHub Pages"
+  },
+  "ui": {
+    "langToggle": "中",
+    "themeToggle": "Theme",
+    "readMore": "Read more",
+    "viewPaper": "View paper"
+  }
+}
