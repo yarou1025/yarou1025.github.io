@@ -324,11 +324,15 @@ function renderLinks() {
   if (!container) return;
 
   const chips = content.links.items
-    .map(item => `<a href="${item.url}" class="link-chip" target="_blank" rel="noopener">${item.label}</a>`)
+    .map(
+      item =>
+        `<a href="${item.url}" class="link-chip" target="_blank" rel="noopener"><span class="link-chip-emoji">${item.emoji || ''}</span>${item.label}</a>`
+    )
     .join('');
 
+  const emailEmoji = content.links.emailEmoji || '📧';
   const emailBtn = content.links.email
-    ? `<a href="mailto:${content.links.email}" class="btn btn-primary link-email-btn">${content.links.emailLabel}</a>`
+    ? `<a href="mailto:${content.links.email}" class="btn btn-primary link-email-btn"><span class="link-chip-emoji">${emailEmoji}</span>${content.links.email}</a>`
     : '';
 
   container.innerHTML = chips + emailBtn;

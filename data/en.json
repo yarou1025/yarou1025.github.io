@@ -387,13 +387,13 @@
     "heading": "📬 Contact",
     "text": "Open to conversations about semiconductor IP, EDA, data science, and life in France.",
     "email": "hsuyarou@gmail.com",
-    "emailLabel": "Email me",
+    "emailEmoji": "📧",
     "items": [
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ya-rou-hsu-b93032179" },
-      { "label": "GitHub", "url": "https://github.com/yarou1025" },
-      { "label": "LeetCode", "url": "https://leetcode.com/u/yarou1025/" },
-      { "label": "InSeine Adventure", "url": "https://inseine-aventure.blogspot.com/" },
-      { "label": "ORCID", "url": "https://orcid.org/0000-0002-0213-0162" }
+      { "emoji": "💼", "label": "LinkedIn", "url": "https://www.linkedin.com/in/ya-rou-hsu-b93032179" },
+      { "emoji": "🐙", "label": "GitHub", "url": "https://github.com/yarou1025" },
+      { "emoji": "🧩", "label": "LeetCode", "url": "https://leetcode.com/u/yarou1025/" },
+      { "emoji": "📝", "label": "Blogger", "url": "https://inseine-aventure.blogspot.com/" },
+      { "emoji": "📄", "label": "ORCID", "url": "https://orcid.org/0000-0002-0213-0162" }
     ]
   },
   "footer": {
