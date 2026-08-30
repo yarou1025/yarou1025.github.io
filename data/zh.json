@@ -384,7 +384,10 @@
     ]
   },
   "links": {
-    "heading": "🔗 連結",
+    "heading": "📬 聯絡",
+    "text": "歡迎交流半導體 IP、EDA、資料科學，以及法國生活相關話題。",
+    "email": "hsuyarou@gmail.com",
+    "emailLabel": "寄信",
     "items": [
       { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ya-rou-hsu-b93032179" },
       { "label": "GitHub", "url": "https://github.com/yarou1025" },
@@ -392,11 +395,6 @@
       { "label": "InSeine Adventure", "url": "https://inseine-aventure.blogspot.com/" },
       { "label": "ORCID", "url": "https://orcid.org/0000-0002-0213-0162" }
     ]
-  },
-  "contact": {
-    "heading": "📬 聯絡",
-    "text": "歡迎交流半導體 IP、EDA、資料科學，以及法國生活相關話題。",
-    "email": "hsuyarou@gmail.com"
   },
   "footer": {
     "text": "© 許雅柔 · Built on GitHub Pages",

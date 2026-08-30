@@ -1044,14 +1044,18 @@ img {
   transform: translateX(-50%);
 }
 
-.section-contact .section-text {
-  margin: 0 auto 16px;
+.section-contact .section-text,
+.links-intro {
+  margin: 0 auto 20px;
+  max-width: 560px;
 }
 
-.contact-email {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: var(--color-accent);
+.links-row {
+  justify-content: center;
+}
+
+.link-email-btn {
+  border-radius: 999px;
 }
 
 /* Footer */

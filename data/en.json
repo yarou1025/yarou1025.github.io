@@ -384,7 +384,10 @@
     ]
   },
   "links": {
-    "heading": "🔗 Links",
+    "heading": "📬 Contact",
+    "text": "Open to conversations about semiconductor IP, EDA, data science, and life in France.",
+    "email": "hsuyarou@gmail.com",
+    "emailLabel": "Email me",
     "items": [
       { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ya-rou-hsu-b93032179" },
       { "label": "GitHub", "url": "https://github.com/yarou1025" },
@@ -392,11 +395,6 @@
       { "label": "InSeine Adventure", "url": "https://inseine-aventure.blogspot.com/" },
       { "label": "ORCID", "url": "https://orcid.org/0000-0002-0213-0162" }
     ]
-  },
-  "contact": {
-    "heading": "📬 Contact",
-    "text": "Open to conversations about semiconductor IP, EDA, data science, and life in France.",
-    "email": "hsuyarou@gmail.com"
   },
   "footer": {
     "text": "© Ya-Rou Hsu · Built on GitHub Pages",

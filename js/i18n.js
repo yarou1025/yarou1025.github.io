@@ -30,7 +30,6 @@ function renderPage() {
   renderProjects();
   renderHonors();
   renderLinks();
-  renderContact();
   renderFooter();
 
   const langBtn = document.getElementById('lang-toggle');
@@ -51,7 +50,7 @@ function renderNav() {
     { id: 'interests', key: 'interests' },
     { id: 'writing', key: 'writing' },
     { id: 'projects', key: 'projects' },
-    { id: 'contact', key: 'contact' }
+    { id: 'links', key: 'contact' }
   ];
 
   nav.innerHTML = sections
@@ -320,22 +319,19 @@ function renderHonors() {
 
 function renderLinks() {
   setText('links-heading', content.links.heading);
+  setText('links-text', content.links.text);
   const container = document.getElementById('links-list');
   if (!container) return;
 
-  container.innerHTML = content.links.items
+  const chips = content.links.items
     .map(item => `<a href="${item.url}" class="link-chip" target="_blank" rel="noopener">${item.label}</a>`)
     .join('');
-}
 
-function renderContact() {
-  setText('contact-heading', content.contact.heading);
-  setText('contact-text', content.contact.text);
-  const email = document.getElementById('contact-email');
-  if (email) {
-    email.textContent = content.contact.email;
-    email.href = `mailto:${content.contact.email}`;
-  }
+  const emailBtn = content.links.email
+    ? `<a href="mailto:${content.links.email}" class="btn btn-primary link-email-btn">${content.links.emailLabel}</a>`
+    : '';
+
+  container.innerHTML = chips + emailBtn;
 }
 
 function renderFooter() {
