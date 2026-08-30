@@ -399,7 +399,9 @@
     "email": "hsuyarou@gmail.com"
   },
   "footer": {
-    "text": "© Ya-Rou Hsu · Built on GitHub Pages"
+    "text": "© Ya-Rou Hsu · Built on GitHub Pages",
+    "viewsLabel": "{count} views (30d)",
+    "analyticsLink": "Cloudflare Analytics"
   },
   "ui": {
     "langToggle": "中",

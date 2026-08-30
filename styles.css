@@ -1072,6 +1072,24 @@ img {
   color: var(--color-text-muted);
 }
 
+.footer-stats {
+  margin-top: 6px;
+  font-size: 0.8rem;
+}
+
+.footer-stats a {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.footer-stats a:hover {
+  color: var(--color-accent-hover);
+}
+
+.footer-stats-icon {
+  margin-right: 2px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-toggle {

@@ -399,7 +399,9 @@
     "email": "hsuyarou@gmail.com"
   },
   "footer": {
-    "text": "© 許雅柔 · Built on GitHub Pages"
+    "text": "© 許雅柔 · Built on GitHub Pages",
+    "viewsLabel": "近 30 日 {count} 次瀏覽",
+    "analyticsLink": "Cloudflare Analytics"
   },
   "ui": {
     "langToggle": "EN",

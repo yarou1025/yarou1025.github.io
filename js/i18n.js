@@ -340,6 +340,7 @@ function renderContact() {
 
 function renderFooter() {
   setText('footer-text', content.footer.text);
+  if (window.renderAnalyticsWidget) window.renderAnalyticsWidget(content.footer);
 }
 
 function setText(id, text) {
